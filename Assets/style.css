@@ -2,6 +2,7 @@
 
 img{
     width: 150px;
+    border-radius: 50%;
 }
 
 h1{
@@ -15,10 +16,16 @@ h1{
 main{
     display: flex;
     justify-content: center;
+    justify-content: space-between;
+
 }
 article{
     display: flex;
     flex-direction: column-reverse;
+    text-align: center;
+    background-color: #1B506F;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 footer{
