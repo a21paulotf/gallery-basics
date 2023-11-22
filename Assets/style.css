@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;800&family=Vina+Sans&display=swap');
+
+img{
+    width: 150px;
+}
+
+h1{
+    background-color: #6F3A1B;
+    text-align: center;
+    color: white;
+    font-family: 'Karla';
+    font-weight: bolder;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+article{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+footer{
+    background-color: #6F3A1B;
+    color: white;
+}
